@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ContextConfiguration {
+
     @Bean("member")
     public MemberDTO getMember(){
         System.out.println("getMember 호출함");
