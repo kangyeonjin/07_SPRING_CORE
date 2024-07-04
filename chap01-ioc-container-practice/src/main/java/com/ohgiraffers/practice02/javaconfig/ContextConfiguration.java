@@ -11,7 +11,8 @@ public class ContextConfiguration {
     public BoardDTO getBoard(){
 
         System.out.println("getBoard 호출함");
-        return new BoardDTO("1212", "강연진","숙제","home");
+        return new BoardDTO(1L, "강연진","숙제","home");
+
     }
 
 }
