@@ -17,7 +17,6 @@ public class ShoppingCart extends Product {
         items.add(item);
     }
 
-
     // 쇼핑카드에 담긴 물건들을 리턴해주는 메소드
     public List<Product> getItem() {
         return items;

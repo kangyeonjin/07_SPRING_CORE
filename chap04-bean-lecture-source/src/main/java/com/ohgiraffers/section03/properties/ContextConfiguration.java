@@ -31,7 +31,7 @@ public class ContextConfiguration {
     @Value("${bread.carpBread.price:0}")
     private int carpBreadPrice;
 
-    @Value("${beverage.milk.name:그냥우유}")
+    @Value("딸기우유")
     private String milkName;
 
     @Value("${beverage.milk.price:0}")
@@ -40,7 +40,7 @@ public class ContextConfiguration {
     @Value("${beverage.milk.capacity:0}")
     private int milkCapacity;
 
-
+`
     @Bean
     public Product carpBread()  {
         return new Bread(carpBreadName, carpBreadPrice, LocalDate.now());
